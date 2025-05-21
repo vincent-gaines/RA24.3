@@ -4,7 +4,7 @@ const port = 3000;
 
 // set up github actions on  a push to main branch
 // so I had to set the CI variable in the actions file
-// again
+// again an automatic run girls
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
