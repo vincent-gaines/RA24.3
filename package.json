@@ -1,0 +1,18 @@
+{
+  "name": "required-assignment-24.3",
+  "version": "1.0.0",
+  "main": "http-server",
+  "scripts": {
+    "test": "node --test app.test.js",
+    "start": "node app.js",
+    "build": "node --test app.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "^5.1.0",
+    "supertest": "^7.1.1"
+  }
+}
